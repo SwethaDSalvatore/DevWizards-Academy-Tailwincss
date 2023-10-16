@@ -1,4 +1,4 @@
-# Tailwindcss-CyberDude
+# DevWizards-Academy-Tailwincss
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-Tailwindcss-CyberDude is a landing page for Tailwindcss which is structured and designed using Tailwind CSS with Vite method. The project is designed to work well on mobile devices. This means that the user interface adjusts and scales appropriately to fit various screen sizes, ensuring a good user experience on smartphones and tablets. 
+DevWizards-Academy-Tailwincss is a landing page for Tailwindcss which is structured and designed using Tailwind CSS with Vite method. The project is designed to work well on mobile devices. This means that the user interface adjusts and scales appropriately to fit various screen sizes, ensuring a good user experience on smartphones and tablets. 
 
 ## Understanding TailwindCSS:
 
@@ -22,7 +22,7 @@ Tailwind CSS is a utility-first CSS framework. It provides a set of pre-designed
 
 ## Demo
 
-[Click here for Live Preview](https://swethadsalvatore.github.io/Tailwindcss-CyberDude/)
+[Click here for Live Preview](https://swethadsalvatore.github.io/DevWizards-Academy-Tailwincss/)
 
 ## Internship
 
