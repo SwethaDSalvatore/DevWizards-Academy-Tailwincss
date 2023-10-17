@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-  <title>DevWizards Academy | Tailwindcss</title>
+  <title>DevWizards Academy | Tailwind CSS</title>
 </head>
 
 <body class="bg-slate-950 h-screen ">
@@ -21,7 +21,7 @@
       <div class="flex flex-col items-center space-x-4 ">
         <div class="flex items-center space-x-4 ">
           <img src="https://img.freepik.com/free-icon/magic-wand_318-659571.jpg" alt="logo" class="w-6">
-          <h1 class="text-neutral-200 sm:text-xl text-sm font-serif font-semibold ">DevWizards Academy |</h1>
+          <h1 class="text-neutral-200 sm:text-xl text-sm font-semibold ">DevWizards Academy |</h1>
         </div>
         <div class="flex items-center justify-start space-x-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="53.2" height="32" viewBox="0 0 256 154" class="w-6">
@@ -34,7 +34,7 @@
             <path fill="url(#logosTailwindcssIcon0)"
               d="M128 0C93.867 0 72.533 17.067 64 51.2C76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2c-12.8 17.067-27.733 23.467-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0ZM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2c9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2c-12.8 17.067-27.733 23.467-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8Z" />
           </svg>
-          <h1 class="text-neutral-200 sm:text-xl text-sm font-serif font-semibold ">Tailwindcss </h1>
+          <h1 class="text-neutral-200 sm:text-xl text-sm font-semibold ">tailwind CSS </h1>
         </div>
       </div>
       <div
@@ -50,7 +50,7 @@
             <a href="#features">Configurations</a>
           </li>
           <li class="text-neutral-200 hover:text-blue-400 font-semibold">
-            <a href="#mentor">Instuctor</a>
+            <a href="#mentor">Instructor</a>
           </li>
           <li class="text-neutral-200 hover:text-blue-400 font-semibold">
             <a href="#tutorials">Tutorials</a>
@@ -71,7 +71,7 @@
 
   <!-- home section -->
   <Section
-    class="flex flex-col sm:h-screen pt-10 pb-10 space-y-10 text-center justify-center items-center bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950">
+    class="flex flex-col sm:h-full sm:bg-[] sm:pt-20 p-6 space-y-10 text-center bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950">
     <h1 class="sm:text-5xl text-3xl text-blue-400 font-semibold">
       Embrace the Wind of Change
     </h1>
@@ -85,13 +85,24 @@
     <h3 class="text-lg text-blue-400 justify-center text-center">
       Let's ride the tailwind
       together✨</h3>
+    <div class="sm:flex space-x-4 justify-center items-center">
+      <button class="bg-blue-400 hover:bg-blue-300 rounded text-slate-950 px-6 h-12 font-semibold">Get started</button>
+      <button
+        class="bg-slate-950 rounded sm:flex justify-center items-center space-x-2 px-4 h-12 sm:visible hidden"><svg
+          xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256"
+          class="fill-current w-5 text-slate-300">
+          <path
+            d="m229.66 218.34l-50.07-50.06a88.11 88.11 0 1 0-11.31 11.31l50.06 50.07a8 8 0 0 0 11.32-11.32ZM40 112a72 72 0 1 1 72 72a72.08 72.08 0 0 1-72-72Z" />
+        </svg>
+        <input type="text" placeholder="Search..." class="outline-none bg-slate-950 text-slate-100"></button>
+    </div>
   </Section>
 
   <!-- about -->
   <section class="grid lg:grid-cols-2 gap-5 p-6" id="about">
     <div class="flex justify-center items-center">
       <h1 class="sm:text-4xl text-3xl font-semibold text-neutral-200 text-center animate-trans-right">
-        What is Tailwindcss & <br>How it is useful
+        What is Tailwind CSS & <br>How it is useful
       </h1>
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
         class="text-blue-400 fill-current sm:w-32 sm:h-32 w-20 h-20 animate-bounce">
@@ -102,7 +113,7 @@
 
     <div class="flex flex-col justify-center items-center space-y-2">
       <div class="border-l border-b border-blue-400 p-2 pr-7 pl-5">
-        <h1 class="sm:text-2xl text-xl font-semibold mb-4 text-blue-400 underline">Tailwindcss :</h1>
+        <h1 class="sm:text-2xl text-xl font-semibold mb-4 text-blue-400 underline">Tailwind CSS :</h1>
         <p class="text-neutral-200">Tailwind CSS is a popular utility-first CSS framework that makes it easy to create
           responsive and maintainable user interfaces. It provides a set of pre-built CSS classes that you can apply
           directly to HTML elements, allowing you to style your web applications quickly and efficiently.</p>
@@ -161,7 +172,9 @@
             <!-- Content -->
             <div class=" bg-blue-400 max-h-0 overflow-hidden peer-checked:max-h-[999px] rounded-b-lg duration-200">
               <p class="text-slate-950 p-[20px] overflow-hidden">
-                Tailwind CSS includes a responsive design system. You can use classes like sm:text-lg or lg:px-4 to
+                Tailwind CSS includes a responsive design system. You can use classes like <span
+                  class="bg-neutral-800 text-slate-300 p-1">sm:text-lg</span> or <span
+                  class="bg-neutral-800 text-slate-300 p-1">lg:px-4</span> to
                 apply styles based on screen sizes, making it simple to create mobile-friendly and responsive layouts
                 without writing custom media queries.
               </p>
@@ -282,9 +295,13 @@
           To use Tailwind CSS in your web development projects, you need a few prerequisites and requirements :
         </h1>
         <ol class="list-decimal pl-4 text-neutral-200">
-          <li class="mb-2">you should have a basic understanding of HTML and CSS to effectively
+          <li class="mb-2">You should have a basic understanding of <span class="text-blue-400"><a
+                href="https://youtu.be/LH-QoDGczXg?si=o1VwtoAk1QfM-H2V">HTML</a></span> and <span
+              class="text-blue-400"><a href="https://youtu.be/qv6ErWuquTY?si=FrHa8V1Tnk6E6gDG">CSS</a></span> to
+            effectively
             use the framework.</li>
-          <li class="mb-2">Make sure you have Node.js and NPM installed on your
+          <li class="mb-2">Make sure you have <span class="text-blue-400"><a
+                href="https://youtu.be/9ZztZYj-fzw?si=6ip3-cQT3hc6-dUQ">Node.js</a></span> and NPM installed on your
             system.</li>
           <li class="mb-2">You'll need a text editor or an IDE to write your HTML and CSS code. Popular choices
             include Visual Studio Code, Sublime Text, or any other code editor of your preference.</li>
@@ -308,7 +325,7 @@
               class="text-xs text-blue-400"> - Click here</a></li>
         </ol>
         <div class="flex flex-col justify-center text-center">
-          <h1 class="sm:text-2xl text-xl font-semibold mb-4 text-blue-400 underline">Specially Recommended - Tailwincss
+          <h1 class="sm:text-2xl text-xl font-semibold mb-4 text-blue-400 underline">Specially Recommended - Tailwin CSS
             Vite</h1>
           <ul class=" text-neutral-200">
             <li class="mb-2">
@@ -348,7 +365,7 @@
     <section class="flex justify-center items-center">
       <div class="flex flex-col justify-center items-center space-y-4">
         <h1 class="sm:text-4xl text-3xl font-semibold text-neutral-200 text-center animate-trans-right">
-          Meet Our Instuctor
+          Meet Our Instructor
         </h1>
         <div class="text-neutral-200 text-center">
           <h3 class="text-blue-400">Mr. Anbuselvan Rocky</h3>
@@ -380,11 +397,11 @@
           community</span>.
       </p>
       <div class="flex space-x-4">
-        <a href="https://github.com/anburocky3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
-          class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
-          <path
-            d="M12 .999c-6.074 0-11 5.05-11 11.278c0 4.983 3.152 9.21 7.523 10.702c.55.104.727-.246.727-.543v-2.1c-3.06.683-3.697-1.33-3.697-1.33c-.5-1.304-1.222-1.65-1.222-1.65c-.998-.7.076-.686.076-.686c1.105.08 1.686 1.163 1.686 1.163c.98 1.724 2.573 1.226 3.201.937c.098-.728.383-1.226.698-1.508c-2.442-.286-5.01-1.253-5.01-5.574c0-1.232.429-2.237 1.132-3.027c-.114-.285-.49-1.432.107-2.985c0 0 .924-.303 3.026 1.156c.877-.25 1.818-.375 2.753-.38c.935.005 1.876.13 2.755.38c2.1-1.459 3.023-1.156 3.023-1.156c.598 1.554.222 2.701.108 2.985c.706.79 1.132 1.796 1.132 3.027c0 4.332-2.573 5.286-5.022 5.565c.394.35.754 1.036.754 2.088v3.095c0 .3.176.652.734.542C19.852 21.484 23 17.258 23 12.277C23 6.048 18.075.999 12 .999Z" />
-        </svg></a> 
+        <a href="https://github.com/anburocky3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+            viewBox="0 0 24 24" class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
+            <path
+              d="M12 .999c-6.074 0-11 5.05-11 11.278c0 4.983 3.152 9.21 7.523 10.702c.55.104.727-.246.727-.543v-2.1c-3.06.683-3.697-1.33-3.697-1.33c-.5-1.304-1.222-1.65-1.222-1.65c-.998-.7.076-.686.076-.686c1.105.08 1.686 1.163 1.686 1.163c.98 1.724 2.573 1.226 3.201.937c.098-.728.383-1.226.698-1.508c-2.442-.286-5.01-1.253-5.01-5.574c0-1.232.429-2.237 1.132-3.027c-.114-.285-.49-1.432.107-2.985c0 0 .924-.303 3.026 1.156c.877-.25 1.818-.375 2.753-.38c.935.005 1.876.13 2.755.38c2.1-1.459 3.023-1.156 3.023-1.156c.598 1.554.222 2.701.108 2.985c.706.79 1.132 1.796 1.132 3.027c0 4.332-2.573 5.286-5.022 5.565c.394.35.754 1.036.754 2.088v3.095c0 .3.176.652.734.542C19.852 21.484 23 17.258 23 12.277C23 6.048 18.075.999 12 .999Z" />
+          </svg></a>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
           class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
           <path
@@ -415,20 +432,20 @@
     id="tutorials">
     <h1 class="sm:text-4xl text-3xl font-semibold text-blue-400">Learn with Us</h1>
   </section>
-
   <section class="grid lg:grid-cols-3 gap-10 p-6 bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950">
     <div
       class="block rounded-lg bg-slate-950 text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] border border-blue-400">
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 1
       </div>
+      <img src="./public/assets/1 v.png" alt="" class="w-full">
       <div class="p-6">
-        <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-          Let's Learn TailwindCSS
+        <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-50">
+          Let's Learn Tailwind CSS
         </h5>
         <p class="mb-4 text-base text-neutral-200">
-          In this video we will be covering the basic concepts of Tailwindcss and comparative study about Bootstap and
-          Tailwindcss
+          In this video we will be covering the basic concepts of Tailwind CSS and comparative study about Bootstap and
+          Tailwind CSS
         </p>
         <div class="p-1 rounded bg-blue-300 hover:bg-blue-100 border border-blue-400 text-slate-950"><a
             href="https://www.youtube.com/live/crx-Q2Ax5Uc?si=Pdb0ewQZHEL0aMVF" target="_blank">
@@ -436,7 +453,7 @@
         </div>
       </div>
       <div class="border-t-2 border-blue-400 px-6 py-3 text-neutral-200">
-        2hr 38min
+        2hr 28min
       </div>
     </div>
     <div
@@ -444,9 +461,10 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 2
       </div>
+      <img src="./public/assets/2 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-          Let's Learn TailwindCSS - (Part 2)
+          Let's Learn Tailwind CSS - (Part 2)
         </h5>
         <p class="mb-4 text-base text-neutral-200">
           In this video we will be covering other important principles and Deployment setups with an example of building
@@ -466,6 +484,7 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 3
       </div>
+      <img src="./public/assets/3 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's Build WhatsApp UI (Part 2)
@@ -488,13 +507,14 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 4
       </div>
+      <img src="./public/assets/4 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's Build Instagram Clone UI (Part 1)
         </h5>
         <p class="mb-4 text-base dark:text-neutral-200">
           In this video we will be building Instagram-UI using Vite framework and also we will be covering many
-          important concepts of Tailwincss.
+          important concepts of Tailwin CSS.
         </p>
         <div class="p-1 rounded bg-blue-300 hover:bg-blue-100 border border-blue-400 text-slate-950"><a
             href="https://www.youtube.com/live/aBl1o5HvBvM?si=joFItMTvsljCyE1G" target="_blank">
@@ -510,12 +530,13 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 5
       </div>
+      <img src="./public/assets/5 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's Build Google Pay UI
         </h5>
         <p class="mb-4 text-base text-neutral-200">
-          In this video we will be building Google Pay-UI using Vite Tailwindcss framwork from the scratch and other
+          In this video we will be building Google Pay-UI using Vite Tailwind CSS framwork from the scratch and other
           important concepts.
         </p>
         <div class="p-1 rounded bg-blue-300 hover:bg-blue-100 border border-blue-400 text-slate-950"><a
@@ -532,6 +553,7 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 6
       </div>
+      <img src="./public/assets/6 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's Review our Project tasks
@@ -554,13 +576,14 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 7
       </div>
+      <img src="./public/assets/7 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's Customize Tailwind CSS
         </h5>
         <p class="mb-4 text-base text-neutral-200">
           In this video we will be learning how to Customize our UI and make responsive to all devices with proper
-          Deployment steps in Tailwincss.
+          Deployment steps in Tailwin CSS.
         </p>
         <div class="p-1 rounded bg-blue-300 hover:bg-blue-100 border border-blue-400 text-slate-950"><a
             href="https://www.youtube.com/live/HPdK5__SBu8?si=fdx2Nb8zgrONFeNp" target="_blank">
@@ -576,6 +599,7 @@
       <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
         Day 8
       </div>
+      <img src="./public/assets/8 v.png" alt="" class="w-full">
       <div class="p-6">
         <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           Let's make User Interface Responsive
@@ -592,26 +616,57 @@
       <div class="border-t-2 border-blue-400 px-6 py-3 text-neutral-200">
         2hr 42min
       </div>
+
     </div>
+    <div
+      class="block rounded-lg bg-slate-950 text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] border border-blue-400">
+      <div class="border-b border-blue-400 px-6 py-3 text-neutral-200">
+        Day 9
+      </div>
+      <img src="./public/assets/9 v.png" alt="" class="w-full">
+      <div class="p-6">
+        <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+          Let's make User Interface Responsive
+        </h5>
+        <p class="mb-4 text-base text-neutral-200">
+          As a final day in tailwindcss Tutorial in this video we will be reviewing our intenship projects given as a
+          skill analysis.
+        </p>
+        <div class="p-1 rounded bg-blue-300 hover:bg-blue-100 border border-blue-400 text-slate-950"><a
+            href="https://www.youtube.com/live/sgltM3GUHx8?si=sEYbbW9uefsrj4X4" target="_blank">
+            Click here to watch</a>
+        </div>
+      </div>
+      <div class="border-t-2 border-blue-400 px-6 py-3 text-neutral-200">
+        2hr 42min
+      </div>
   </section>
 
   <!-- projects -->
   <section class="p-6 flex justify-center items-center sm:mt-20 mt-10" id="project">
     <h1 class="sm:text-4xl text-3xl font-semibold text-blue-400">Try Our Projects</h1>
   </section>
-
   <section class="grid-cols-1 sm:grid sm:grid-cols-3 p-6">
     <div
       class="mx-3 mt-6 flex flex-col rounded-lg bg-slate-950 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0  border border-blue-400 transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-blue-400">
-      <a href="#!">
+      <a href="https://swethadsalvatore.github.io/WhatsApp-UI-Clone/" target="_blank">
         <img class="rounded-t-lg" src="./public/assets/watsapp.jpg" alt="Whatsapp" />
       </a>
       <div class="p-6 space-y-4">
-        <h5 class="text-xl font-medium leading-tight text-blue-400">
-          Whatsapp-UI
-        </h5>
+        <div class="flex justify-between items-center">
+          <h5 class="text-xl font-medium leading-tight text-blue-400">
+            Whatsapp-UI
+          </h5>
+          <a href="https://github.com/SwethaDSalvatore/WhatsApp-UI-Clone" target="_blank" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+              class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z" />
+            </svg>
+          </a>
+        </div>
         <p class="mb-4 text-base text-neutral-200 ">
-          Refer our Tutorial videos regarding Tailwindcss.
+          Refer our Tutorial videos regarding Tailwind CSS.
         </p>
         <p class="mb-4 text-base text-neutral-200 ">
           Try building a responsive Whatsapp UI like this and share your project with us.
@@ -625,15 +680,24 @@
 
     <div
       class="mx-3 mt-6 flex flex-col rounded-lg bg-slate-950 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0  border border-blue-400 transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-blue-400">
-      <a href="#!">
+      <a href="https://swethadsalvatore.github.io/Instagram/" target="_blank">
         <img class="rounded-t-lg" src="./public/assets/insta.jpg" alt="Instagram" />
       </a>
       <div class="p-6 space-y-4">
-        <h5 class="text-xl font-medium leading-tight text-blue-400">
-          Instagram-UI
-        </h5>
+        <div class="flex justify-between items-center">
+          <h5 class="text-xl font-medium leading-tight text-blue-400">
+            Instagram-UI
+          </h5>
+          <a href="https://github.com/SwethaDSalvatore/Instagram" target="_blank" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+              class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z" />
+            </svg>
+          </a>
+        </div>
         <p class="mb-4 text-base text-neutral-200 ">
-          Refer our Tutorial videos regarding Tailwindcss.
+          Refer our Tutorial videos regarding Tailwind CSS.
         </p>
         <p class="mb-4 text-base text-neutral-200 ">
           Try building a responsive Whatsapp UI like this and share your project with us.
@@ -646,15 +710,24 @@
     </div>
     <div
       class="mx-3 mt-6 flex flex-col rounded-lg bg-slate-950 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  sm:shrink-0 sm:grow sm:basis-0  border border-blue-400 transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-blue-400">
-      <a href="#!">
+      <a href="https://swethadsalvatore.github.io/Gpay-UI-CLI/" target="_blank">
         <img class="rounded-t-lg" src="./public/assets/gpay.jpg" alt="Gpay-UI" />
       </a>
       <div class="p-6 space-y-4">
-        <h5 class="text-xl font-medium leading-tight text-blue-400">
-          Gpay-UI
-        </h5>
+        <div class="flex justify-between items-center">
+          <h5 class="text-xl font-medium leading-tight text-blue-400">
+            Gpay-UI
+          </h5>
+          <a href="https://github.com/SwethaDSalvatore/Gpay-UI-CLI" target="_blank" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+              class="fill fill-current w-7 text-blue-400 hover:text-neutral-200 hover:cursor-pointer">
+              <path fill-rule="evenodd"
+                d="M16 2a14 14 0 0 0-4.43 27.28c.7.13 1-.3 1-.67v-2.38c-3.89.84-4.71-1.88-4.71-1.88a3.71 3.71 0 0 0-1.62-2.05c-1.27-.86.1-.85.1-.85a2.94 2.94 0 0 1 2.14 1.45a3 3 0 0 0 4.08 1.16a2.93 2.93 0 0 1 .88-1.87c-3.1-.36-6.37-1.56-6.37-6.92a5.4 5.4 0 0 1 1.44-3.76a5 5 0 0 1 .14-3.7s1.17-.38 3.85 1.43a13.3 13.3 0 0 1 7 0c2.67-1.81 3.84-1.43 3.84-1.43a5 5 0 0 1 .14 3.7a5.4 5.4 0 0 1 1.44 3.76c0 5.38-3.27 6.56-6.39 6.91a3.33 3.33 0 0 1 .95 2.59v3.84c0 .46.25.81 1 .67A14 14 0 0 0 16 2Z" />
+            </svg>
+          </a>
+        </div>
         <p class="mb-4 text-base text-neutral-200 ">
-          Refer our Tutorial videos regarding Tailwindcss.
+          Refer our Tutorial videos regarding Tailwind CSS.
         </p>
         <p class="mb-4 text-base text-neutral-200 ">
           Try building a responsive Whatsapp UI like this and share your project with us.
@@ -726,7 +799,7 @@
   <footer
     class=" bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 flex flex-col justify-center items-center space-x-2 p-6 border-t border-blue-400 sm:mt-20 mt-10 text-center">
     <p class="text-neutral-200 text-sm">Designed by <span class="text-blue-400">Swetha Ramesh </span> for CyberDude
-      Network Intenship programme</p>
+      Networks Internship programme</p>
 
     <a href="https://github.com/SwethaDSalvatore/DevWizards-Academy-Tailwincss" target="_blank" class="">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
